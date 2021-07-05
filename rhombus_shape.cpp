@@ -1,10 +1,9 @@
 #include <iostream>
 
 int main(){
-
 int inputNum = 9;
 	for (int i = inputNum; i > 0; i--){
-		   		if (i < ((inputNum+1)/2)){
+		   	if (i < ((inputNum+1)/2)){
 		             for(int y = (inputNum - 1); y >= i; y--){
 		                 std::cout << "00";
 		             }
