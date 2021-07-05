@@ -1,11 +1,11 @@
 #include <iostream>
 
 int main(){
-int inputNum = 9;
+int inputNum = 9; // odd number
 	for (int i = inputNum; i > 0; i--){
 		   	if (i < ((inputNum+1)/2)){
 		             for(int y = (inputNum - 1); y >= i; y--){
-		                 std::cout << "00";
+		                 std::cout << "  ";
 		             }
 		             for (int k = i; k > 0; k--){
 		                 std::cout << "* ";
@@ -15,7 +15,7 @@ int inputNum = 9;
 		             }
 		         } else {
 		             for (int x = 1; x < i; x++){
-		                 std::cout << ("00");
+		                 std::cout << ("  ");
 		             }
 		             for (int j = i; j <= (inputNum); j++){
 		                 std::cout << ("* ");
